@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Standalone complete rounded-square engineering icon for Mobile Math Studio -->
+    <path
+        android:pathData="M28,6 L80,6 C92.15,6 102,15.85 102,28 L102,80 C102,92.15 92.15,102 80,102 L28,102 C15.85,102 6,92.15 6,80 L6,28 C6,15.85 15.85,6 28,6 Z"
+        android:strokeColor="#FF061224"
+        android:strokeWidth="2.4">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="10"
+                android:startY="8"
+                android:endX="98"
+                android:endY="100">
+                <item android:offset="0.0" android:color="#FF1A3A6B" />
+                <item android:offset="0.52" android:color="#FF0E2242" />
+                <item android:offset="1.0" android:color="#FF071122" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Soft sapphire glow -->
+    <path android:pathData="M28,6 L80,6 C92.15,6 102,15.85 102,28 L102,80 C102,92.15 92.15,102 80,102 L28,102 C15.85,102 6,92.15 6,80 L6,28 C6,15.85 15.85,6 28,6 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="34"
+                android:centerY="30"
+                android:gradientRadius="64">
+                <item android:offset="0.0" android:color="#400078D4" />
+                <item android:offset="1.0" android:color="#000078D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Liquid-glass inner specular border -->
+    <path
+        android:pathData="M28,8 L80,8 C91.05,8 100,16.95 100,28 L100,80 C100,91.05 91.05,100 80,100 L28,100 C16.95,100 8,91.05 8,80 L8,28 C8,16.95 16.95,8 28,8 Z"
+        android:strokeWidth="1.2">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="12"
+                android:startY="10"
+                android:endX="96"
+                android:endY="98">
+                <item android:offset="0.0" android:color="#80A5DCFF" />
+                <item android:offset="0.5" android:color="#2440A9FF" />
+                <item android:offset="1.0" android:color="#1A0078D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Coordinate axes with unobstructed arrowheads -->
+    <path
+        android:pathData="M16,54 L92.5,54 M54,91.5 L54,16 M89.0,51.2 L92.8,54 L89.0,56.8 M51.2,19.5 L54,15.7 L56.8,19.5"
+        android:strokeColor="#5C8CCBFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="1.6" />
+
+    <!-- Shaded area under the sinusoid -->
+    <path android:pathData="M22,54 C27.83,41.41 32.17,32 38,32 C43.83,32 48.17,41.41 54,54 C59.83,66.59 64.17,76 70,76 C75.83,76 80.17,66.59 86,54 L22,54 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="38"
+                android:startY="32"
+                android:endX="70"
+                android:endY="76">
+                <item android:offset="0.0" android:color="#8038BDF8" />
+                <item android:offset="0.5" android:color="#2E0078D4" />
+                <item android:offset="1.0" android:color="#6E0078D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Deep navy shadow stroke -->
+    <path
+        android:pathData="M22,55.5 C27.83,42.91 32.17,33.5 38,33.5 C43.83,33.5 48.17,42.91 54,55.5 C59.83,68.09 64.17,77.5 70,77.5 C75.83,77.5 80.17,68.09 86,55.5"
+        android:strokeColor="#D9051429"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="7.6" />
+
+    <!-- Primary luminous sinusoid -->
+    <path
+        android:pathData="M22,54 C27.83,41.41 32.17,32 38,32 C43.83,32 48.17,41.41 54,54 C59.83,66.59 64.17,76 70,76 C75.83,76 80.17,66.59 86,54"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="4.6">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="22"
+                android:startY="32"
+                android:endX="86"
+                android:endY="76">
+                <item android:offset="0.0" android:color="#FF7DD3FC" />
+                <item android:offset="0.48" android:color="#FFE0F4FF" />
+                <item android:offset="1.0" android:color="#FF38A5FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Filled crest node & hollow trough node -->
+    <path
+        android:fillColor="#FFF0F9FF"
+        android:pathData="M38,28 A4,4 0 1,0 38,36 A4,4 0 1,0 38,28 Z"
+        android:strokeColor="#FF071428"
+        android:strokeWidth="2.0" />
+
+    <path
+        android:fillColor="#FF0D2140"
+        android:pathData="M70,72.2 A3.8,3.8 0 1,0 70,79.8 A3.8,3.8 0 1,0 70,72.2 Z"
+        android:strokeColor="#FF7DD3FC"
+        android:strokeWidth="2.3" />
+</vector>

@@ -1,4 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/ic_launcher_background" />
-</shape>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Layer 1: Deep engineering navy gradient backdrop -->
+    <path android:pathData="M0,0 L108,0 L108,108 L0,108 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="8"
+                android:startY="6"
+                android:endX="102"
+                android:endY="104">
+                <item android:offset="0.0" android:color="#FF162D52" />
+                <item android:offset="0.5" android:color="#FF0C1A33" />
+                <item android:offset="1.0" android:color="#FF070F1E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Layer 2: Soft ambient sapphire glow for liquid-glass depth -->
+    <path android:pathData="M0,0 L108,0 L108,108 L0,108 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="36"
+                android:centerY="32"
+                android:gradientRadius="68">
+                <item android:offset="0.0" android:color="#400078D4" />
+                <item android:offset="0.6" android:color="#140078D4" />
+                <item android:offset="1.0" android:color="#000078D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Layer 3: Subtle blueprint coordinate grid -->
+    <path
+        android:pathData="M18,0 L18,108 M30,0 L30,108 M42,0 L42,108 M54,0 L54,108 M66,0 L66,108 M78,0 L78,108 M90,0 L90,108 M0,18 L108,18 M0,30 L108,30 M0,42 L108,42 M0,54 L108,54 M0,66 L108,66 M0,78 L108,78 M0,90 L108,90"
+        android:strokeColor="#167CC4FA"
+        android:strokeWidth="0.6" />
+</vector>

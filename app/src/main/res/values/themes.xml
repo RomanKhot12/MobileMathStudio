@@ -4,6 +4,8 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:windowBackground">#FF0A0A0A</item>
+        <item name="android:windowSplashScreenBackground">#FF0A1628</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
         <item name="android:colorPrimary">#FF0078D4</item>
     </style>
 </resources>

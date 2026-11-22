@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Layer 1: Soft elevation shadow under the rounded engineering frame -->
+    <path
+        android:fillColor="#59020712"
+        android:pathData="M41,29.4 L67,29.4 C74.18,29.4 80,35.22 80,42.4 L80,68.4 C80,75.58 74.18,81.4 67,81.4 L41,81.4 C33.82,81.4 28,75.58 28,68.4 L28,42.4 C28,35.22 33.82,29.4 41,29.4 Z" />
+
+    <!-- Layer 2: Rounded-square engineering glass container (strictly inside 66dp safe zone) -->
+    <path
+        android:pathData="M41,28 L67,28 C74.18,28 80,33.82 80,41 L80,67 C80,74.18 74.18,80 67,80 L41,80 C33.82,80 28,74.18 28,67 L28,41 C28,33.82 33.82,28 41,28 Z"
+        android:strokeColor="#FF071428"
+        android:strokeWidth="2.2">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="28"
+                android:startY="28"
+                android:endX="80"
+                android:endY="80">
+                <item android:offset="0.0" android:color="#FF1E447A" />
+                <item android:offset="0.5" android:color="#FF112A4F" />
+                <item android:offset="1.0" android:color="#FF0A1931" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Layer 3: Subtle top-left liquid-glass rim highlight -->
+    <path
+        android:pathData="M41,29.2 L67,29.2 C73.52,29.2 78.8,34.48 78.8,41 L78.8,67 C78.8,73.52 73.52,78.8 67,78.8 L41,78.8 C34.48,78.8 29.2,73.52 29.2,67 L29.2,41 C29.2,34.48 34.48,29.2 41,29.2 Z"
+        android:strokeWidth="1.0">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="30"
+                android:startY="29"
+                android:endX="78"
+                android:endY="79">
+                <item android:offset="0.0" android:color="#80A5DCFF" />
+                <item android:offset="0.45" android:color="#2640A9FF" />
+                <item android:offset="1.0" android:color="#1A0078D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Layer 4: Coordinate axes with unobstructed minimal arrowheads -->
+    <path
+        android:pathData="M31.5,54 L76.8,54 M54,76.2 L54,31.2 M74.6,52.2 L77.0,54 L74.6,55.8 M52.2,33.4 L54,31.0 L55.8,33.4"
+        android:strokeColor="#5C8CCBFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="1.1" />
+
+    <!-- Layer 5: Soft gradient integral area fill under the sinusoid -->
+    <path android:pathData="M34,54 C37.64,45.99 40.36,40 44,40 C47.64,40 50.36,45.99 54,54 C57.64,62.01 60.36,68 64,68 C67.64,68 70.36,62.01 74,54 L34,54 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="44"
+                android:startY="40"
+                android:endX="64"
+                android:endY="68">
+                <item android:offset="0.0" android:color="#8038BDF8" />
+                <item android:offset="0.5" android:color="#2E0078D4" />
+                <item android:offset="1.0" android:color="#6E0078D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Layer 6: Deep dark-navy contour shadow under the primary curve -->
+    <path
+        android:pathData="M34,54.9 C37.64,46.89 40.36,40.9 44,40.9 C47.64,40.9 50.36,46.89 54,54.9 C57.64,62.91 60.36,68.9 64,68.9 C67.64,68.9 70.36,62.91 74,54.9"
+        android:strokeColor="#D9051429"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="5.2" />
+
+    <!-- Layer 7: Primary luminous engineering sinusoid curve -->
+    <path
+        android:pathData="M34,54 C37.64,45.99 40.36,40 44,40 C47.64,40 50.36,45.99 54,54 C57.64,62.01 60.36,68 64,68 C67.64,68 70.36,62.01 74,54"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="3.1">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="34"
+                android:startY="40"
+                android:endX="74"
+                android:endY="68">
+                <item android:offset="0.0" android:color="#FF7DD3FC" />
+                <item android:offset="0.48" android:color="#FFE0F4FF" />
+                <item android:offset="1.0" android:color="#FF38A5FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Layer 8: Signature precision nodes — filled crest marker & hollow trough marker -->
+    <path
+        android:fillColor="#FFF0F9FF"
+        android:pathData="M44,37.3 A2.7,2.7 0 1,0 44,42.7 A2.7,2.7 0 1,0 44,37.3 Z"
+        android:strokeColor="#FF071428"
+        android:strokeWidth="1.4" />
+
+    <path
+        android:fillColor="#FF0D2140"
+        android:pathData="M64,65.4 A2.6,2.6 0 1,0 64,70.6 A2.6,2.6 0 1,0 64,65.4 Z"
+        android:strokeColor="#FF7DD3FC"
+        android:strokeWidth="1.6" />
+</vector>
