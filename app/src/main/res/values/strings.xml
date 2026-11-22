@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">Mobile Math Studio</string>
+
+    <string name="cd_copy_latex">Copy LaTeX</string>
+    <string name="cd_paste_latex">Paste LaTeX</string>
+    <string name="cd_paste_text">Paste text</string>
+    <string name="cd_delete_formula">Delete formula</string>
+    <string name="cd_plot_graph">Plot graph</string>
+    <string name="cd_select_for_system">Select for system</string>
+    <string name="cd_system_delete">Delete system</string>
+    <string name="cd_system_copy">Copy system</string>
+    <string name="cd_system_copy_latex">Copy as LaTeX</string>
+    <string name="cd_system_copy_text">Copy as text</string>
+    <string name="cd_system_ungroup">Ungroup system</string>
+    <string name="cd_system_add">Add equation</string>
+
+    <string name="onboard_skip">Skip</string>
+    <string name="onboard_next">Next</string>
+    <string name="onboard_done">Got it</string>
+    <string name="onboard_step1_title">Infinite canvas</string>
+    <string name="onboard_step1_body">Tap anywhere to create a formula cell. Drag empty space to pan, drag a cell to move it.</string>
+    <string name="onboard_step2_title">Toolbar</string>
+    <string name="onboard_step2_body">The top island has settings, LaTeX import, export, and the canvas manager.</string>
+    <string name="onboard_step3_title">Math keyboard</string>
+    <string name="onboard_step3_body">Insert fractions, powers, and roots as real math structures. Confirm nested slots with the green check.</string>
+    <string name="onboard_step4_title">Systems of equations</string>
+    <string name="onboard_step4_body">Press { to create a system. Select formulas first to wrap them, or start with empty slots. Tap the brace for more actions.</string>
+
+    <string name="cd_settings">Settings</string>
+    <string name="cd_canvas_manager">Canvas manager</string>
+
+    <string name="type_placeholder_title">Enter a mathematical problem</string>
+    <string name="type_placeholder_body">Tap anywhere on the infinite canvas to create an input cell. Keyboard arrives next.</string>
+
+    <string name="draw_placeholder_title">Draw a formula</string>
+    <string name="draw_placeholder_body">Handwriting recognition workspace — stylus and finger input will land here.</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">Appearance, language, and performance</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_dark_theme">Dark theme</string>
+    <string name="settings_accent">Accent color</string>
+    <string name="settings_language">Interface language</string>
+    <string name="settings_answer_layout">Variable answer format</string>
+    <string name="answer_layout_column">One per line</string>
+    <string name="answer_layout_inline">In one line</string>
+    <string name="settings_decimal_precision">Decimal precision</string>
+    <string name="settings_decimal_precision_value">%1$d digits after the decimal</string>
+    <string name="settings_decimal_precision_option">%1$d digits</string>
+    <string name="settings_support">Support</string>
+    <string name="settings_support_hint">Questions and feedback</string>
+    <string name="settings_support_email" translatable="false">khoteenkovr@gmail.com</string>
+
+    <string name="settings_performance">Performance mode</string>
+    <string name="settings_performance_status">FPS %1$s · %2$s %3$s</string>
+    <string name="settings_auto_downgraded">(auto)</string>
+    <string name="settings_liquid_glass">Liquid Glass effect</string>
+    <string name="settings_liquid_glass_hint">Turn off to disable GPU shaders and blur for maximum FPS</string>
+    <string name="toggle_on">On</string>
+    <string name="toggle_off">Off</string>
+
+    <string name="lang_system">System</string>
+    <string name="lang_en">EN</string>
+    <string name="lang_ru">RU</string>
+
+    <string name="perf_auto">Auto</string>
+    <string name="perf_high">High</string>
+    <string name="perf_balanced">Balanced</string>
+    <string name="perf_saver">Saver</string>
+
+    <string name="canvas_manager_title">Canvases</string>
+    <string name="canvas_manager_subtitle">Create and switch workspaces. Changes auto-save.</string>
+    <string name="canvas_create">Create new canvas</string>
+    <string name="canvas_recent">Recent</string>
+    <string name="canvas_empty">No canvases yet</string>
+    <string name="canvas_create_dialog_title">New canvas</string>
+    <string name="canvas_rename_dialog_title">Rename canvas</string>
+    <string name="canvas_delete_dialog_title">Delete canvas?</string>
+    <string name="canvas_delete_dialog_body">“%1$s” and all of its formulas will be removed. This cannot be undone.</string>
+    <string name="canvas_name_label">Name</string>
+    <string name="canvas_rename">Rename</string>
+    <string name="canvas_duplicate">Duplicate</string>
+    <string name="canvas_pin">Pin to top</string>
+    <string name="canvas_unpin">Unpin</string>
+    <string name="canvas_delete">Delete</string>
+    <string name="canvas_copy_suffix">%1$s (copy)</string>
+    <string name="canvas_default_name">Untitled Canvas</string>
+
+    <string name="cd_import_latex">Import LaTeX</string>
+    <string name="cd_copy_slot">Copy this slot</string>
+    <string name="cd_paste_slot">Paste into this slot</string>
+    <string name="cd_export">Export canvas</string>
+    <string name="latex_import_title">Import LaTeX</string>
+    <string name="latex_import_hint">Paste raw LaTeX — \\frac, \\sqrt, powers and cases blocks are recognised.</string>
+    <string name="latex_import_preview">Preview</string>
+    <string name="latex_import_action">Insert</string>
+    <string name="export_title">Export</string>
+    <string name="export_action">Save</string>
+    <string name="export_saved">Saved to Downloads: %1$s</string>
+    <string name="export_failed">Export failed</string>
+    <string name="export_add_page">Add page</string>
+    <string name="export_delete_block">Remove block</string>
+    <string name="export_delete_part">Remove element</string>
+    <string name="export_pick_part">Tap again to pick one element</string>
+    <string name="export_pick_pages">Tick the pages you need</string>
+    <string name="export_selection_block">Block</string>
+    <string name="export_selection_part">Element</string>
+    <string name="export_deselect">Deselect</string>
+    <string name="export_select_pages">Select</string>
+    <string name="export_pages_selected">Selected: %1$d</string>
+    <string name="export_delete_pages">Delete selected pages</string>
+    <string name="export_keep_pages">Keep only selected</string>
+    <string name="export_undo">Undo</string>
+    <string name="export_redo">Redo</string>
+    <string name="export_reset">Reset all</string>
+    <string name="export_pages">Pages: %1$d</string>
+    <string name="export_empty">Nothing to export yet</string>
+    <string name="cd_canvas_more">More actions</string>
+    <string name="action_create">Create</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="cd_copy">Copy</string>
+    <string name="cd_cut">Cut</string>
+    <string name="cd_paste">Paste</string>
+    <string name="cd_collapse_keyboard">Hide keyboard</string>
+    <string name="cd_expand_keyboard">Show keyboard</string>
+    <string name="cd_undo">Undo</string>
+    <string name="cd_redo">Redo</string>
+    <string name="cd_clear_canvas">Clear entire canvas</string>
+    <string name="clear_canvas_title">Clear the entire canvas?</string>
+    <string name="clear_canvas_confirm">Clear</string>
+    <string name="long_number_close">Close</string>
+    <string name="long_number_hint">Scroll right to see more digits</string>
+    <string name="long_number_unavailable">This value cannot be expanded</string>
+    <string name="long_number_end">End of available digits — scroll back to review</string>
+    <string name="long_number_fullscreen">Full screen</string>
+    <string name="long_number_exit_fullscreen">Exit full screen</string>
+    <string name="graph_title">Graph</string>
+    <string name="graph_empty">Drag a formula onto the graph</string>
+    <string name="solving">Solving…</string>
+    <string name="cd_show_decimal">Show decimal approximation</string>
+    <string name="cd_show_exact">Show exact answer</string>
+    <string name="graph_hint">Pinch to zoom, drag to pan</string>
+    <string name="graph_close">Close</string>
+    <string name="graph_add_function">+ Add function</string>
+    <string name="graph_pick_hint">Tap a formula on the canvas…</string>
+    <string name="graph_remove_title">Remove this function from the graph?</string>
+    <string name="graph_remove_body">“%1$s” will be dropped from this plot. The formula on the canvas stays.</string>
+    <string name="graph_remove_confirm">Yes</string>
+    <string name="graph_delete_title">Delete graph?</string>
+</resources>

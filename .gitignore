@@ -1,0 +1,42 @@
+# Gradle & Build outputs
+.gradle/
+.kotlin/
+build/
+*/build/
+captures/
+.externalNativeBuild/
+.cxx/
+.navigation/
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+
+# Local configuration & SDK paths
+local.properties
+
+# Android binaries & packages
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+output-metadata.json
+
+# Signing keys & keystores
+*.jks
+*.keystore
+*.p12
+*.pepk
+
+# Logs & profiling
+*.log
+*.hprof
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+.vscode/
